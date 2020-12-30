@@ -1,2 +1,2 @@
-rootProject.name = "dependecy-dsl"
+rootProject.name = "dependency-dsl"
 

@@ -7,6 +7,8 @@
 
 ## Setup
 
+Available via JCenter.
+
 Add classpath to buildScript
 
 ```kotlin
