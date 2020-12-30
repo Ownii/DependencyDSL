@@ -1,8 +1,8 @@
 package eu.ownii.dependency
 
 data class GradlePackage(
-	val type: String,
-	val group: String,
-	val name: String,
-	val version: String
+	internal val type: String,
+	internal val group: String,
+	internal val name: String,
+	internal val version: String
 )

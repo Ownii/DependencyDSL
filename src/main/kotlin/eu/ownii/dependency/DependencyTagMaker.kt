@@ -1,4 +1,4 @@
 package eu.ownii.dependency
 
 @DslMarker
-annotation class DependencyTagMarker
+internal annotation class DependencyTagMarker

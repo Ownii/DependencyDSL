@@ -2,4 +2,7 @@ package eu.ownii.dependency
 
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 
-data class Dependency(val packages: List<GradlePackage>, val customs: List<DependencyHandlerScope.() -> Unit>)
+data class Dependency(
+	internal val packages: List<GradlePackage>,
+	internal val customs: List<DependencyHandlerScope.() -> Unit>
+)

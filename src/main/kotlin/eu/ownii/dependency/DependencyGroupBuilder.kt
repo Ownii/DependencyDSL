@@ -15,7 +15,7 @@ open class DependencyGroupBuilder(
 	var kapt: String? = null
 ) {
 
-	var custom: (DependencyHandlerScope.() -> Unit)? = null
+	private var custom: (DependencyHandlerScope.() -> Unit)? = null
 
 	internal open fun build(): Pair<List<GradlePackage>, List<DependencyHandlerScope.() -> Unit>> {
 		val allPackages = mutableListOf<GradlePackage>()
