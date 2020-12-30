@@ -1,14 +1,15 @@
 plugins {
-    kotlin("jvm") version "1.4.21"
+	`kotlin-dsl`
 }
 
 group = "eu.ownii"
 version = "0.1"
 
 repositories {
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
-    implementation(kotlin("stdlib"))
+	implementation(kotlin("stdlib"))
+	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.21")
 }

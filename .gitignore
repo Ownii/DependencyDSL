@@ -1,0 +1,8 @@
+
+.gradle/
+
+.idea/
+
+src/main/kotlin/eu/.DS_Store
+
+src/main/kotlin/eu/ownii/.DS_Store
